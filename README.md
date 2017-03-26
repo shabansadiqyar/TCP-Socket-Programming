@@ -1,1 +1,5 @@
 # TCP-Socket-Programming
+
+The purpose of the project was to develop a Web Server in C using a TCP connection between a client and a server. I created the server using sockets in order to establish the TCP connection. The client side was done by using a browser and requesting from the server. The server must be able to receive the HTTP requests from the client and process the HTTP requests. Then the server must send a response message back to the server.
+
+In order to run the program, one can type “make” (no quotes needed) which will create the C object and compile the program. The Makefile will have everything in order for “make” to work. One can also run “gcc –o server.c server” (no quotes needed) in order to run the program. The server is ran by typing “./server 2500” (no quotes needed) . The port number is arbitrary but we specified it as 2500. Then on the client side or browser just type http://127.0.0.1:2500/somefile.html. The somefile.html can be any html file as long as it is contained within the same directory as the server.
