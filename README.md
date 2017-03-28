@@ -4,12 +4,12 @@ The purpose of the project was to develop a Web Server in C using a TCP connecti
 
 ## How to Run and Test
 
-In order to run the program, type
+In order to compile the program, type
 ```
 make
 ```
-which will create the C object and compile the program. The Makefile will have everything in order for make to work. One can also run 
+which will create the C object. The Makefile will have everything in order for make to work. One can also run 
 ```
 gcc –o server.c server 
 ```
-in order to run the program. The server is ran by typing ./server 2500 on the command line . The port number is arbitrary but we specified it as 2500. Then on the client side or browser just type http://<i></i>127.0.0.1:2500/somefile.html. The somefile.html can be any html file as long as it is contained within the same directory as the server.
+in order to compile the program. The server is ran by typing ./server 2500 on the command line . The port number is arbitrary but we specified it as 2500. Then on the client side or browser just type http://<i></i>127.0.0.1:2500/somefile.html. The somefile.html can be any html file as long as it is contained within the same directory as the server.
